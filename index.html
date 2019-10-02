@@ -2,12 +2,20 @@
 
 <html lang ="en">
     <head>
+        <script>
+            function greet()
+            {
+                let name = document.querySelect('#name').value;
+                // # is used to identify an id called name instead of a tag
+                alert('hello, ' + name;
+            }
+        </script>
         <title>
             Tony's Test Website
         </title>
     </head>
     <body style="text-align: center">
-        <header style ="font-size: large; text-align: center">
+        <header style ="font-size: large">
             Tony Dattolo
         </header>
         <main style ="font-size: medium">
@@ -16,6 +24,13 @@
         <footer style ="font-size: small">
             2019 &#169
         </footer>      
+    </body>
+    <body>
+        <form onsubmit="greet(); return false">
+            <input id="name" type="text">
+            <input type="submit">
+        </form>
+
     </body>
     <body style="text-align: right">
         <p>
