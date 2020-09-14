@@ -39,10 +39,10 @@
   src: url(../fonts/mandalore-font/Mandalore-K77lD.otf) format("otf");
 }
 .header_area .main-menu .navbar {
-  padding: 1rem 20rem;
+  padding: 0.1rem 0.1rem;
 }
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0 2rem 0 5rem;
+  padding: 0 1rem 0 1rem;
   font-family: "Matrix", "Hack", cursive;
   text-transform: uppercase;
   color: #6dcd3cff;
@@ -73,6 +73,7 @@
 .header_area .main-menu .navbar-toggler {
   background: #e59500ff;
   color: red;
+  margin-right: 15px;
 }
 
 html, body {
@@ -83,11 +84,11 @@ html, body {
   background-color: #0d0a0bff;
 }
 
-.site-main .site-banner .site-title h3 {
-  padding-top: 35%;
+.site-main .site-banner .site-title h4 {
   font-weight: 500;
+  font-size: 1.5rem;
 }
-.site-main .site-banner .site-title h3::after {
+.site-main .site-banner .site-title h4::after {
   content: "";
   height: 2px;
   width: 18vw;
@@ -96,15 +97,13 @@ html, body {
   margin-left: 5%;
   transform: translateY(-10px);
 }
-.site-main .site-banner .site-title h1 {
-  font-size: 5rem;
-}
-.site-main .site-banner .site-title h4 {
-  font-size: 1.5rem;
-}
 .site-main .site-banner .banner-image > img {
   padding: 7rem 0;
   width: 90rem;
+}
+.site-main .site-banner .quote {
+  font-family: "Hack";
+  font-size: 8;
 }
 
 .title-text {
@@ -135,6 +134,7 @@ html, body {
   background: #fafaffff;
   background-clip: padding-box;
   color: cyan;
+  font-weight: 800;
 }
 .button.primary-button::after {
   position: absolute;
