@@ -301,3 +301,29 @@ html, body {
     z-index: 999;
     transition: background 1s ease;
 }
+
+// Library Page
+.booktable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &> div {
+        background-color: darkgray;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+        justify-content: center;
+        text-align: center;
+
+        &> div {
+            width: 100px;
+            height: 125px;
+            justify-content: center;
+        }
+    }
+}
+.responsive-image {
+    max-width: 100%;
+}

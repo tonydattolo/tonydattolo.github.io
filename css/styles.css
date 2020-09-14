@@ -160,4 +160,28 @@ html, body {
   transition: background 1s ease;
 }
 
+.booktable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.booktable > div {
+  background-color: darkgray;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+}
+.booktable > div > div {
+  width: 100px;
+  height: 125px;
+  justify-content: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
