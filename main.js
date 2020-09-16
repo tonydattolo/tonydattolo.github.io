@@ -21,6 +21,9 @@
 
 // });
 
+// var items = document.getElementsByClassName("nav-item");
+// var links = header.getElementsByClassName("nav-link");
+
 var navCont = document.getElementById("navbarNav");
 var links = navCont.getElementsByClassName("nav-item");
 
