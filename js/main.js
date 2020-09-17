@@ -21,13 +21,13 @@
 
 // });
 
-var navCont = document.getElementById("navbarNav");
-var links = navCont.getElementsByClassName("nav-item");
+// var navCont = document.getElementById("navbarNav");
+// var links = navCont.getElementsByClassName("nav-item");
 
-for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function () {
-        var currentActive = document.getElementsByClassName("active");
-        currentActive[0].classList.remove("active");
-        this.classList.add("active");
-    });
-}
+// for (let i = 0; i < links.length; i++) {
+//     links[i].addEventListener("click", function () {
+//         var currentActive = document.getElementsByClassName("active");
+//         currentActive[0].classList.remove("active");
+//         this.classList.add("active");
+//     });
+// }
