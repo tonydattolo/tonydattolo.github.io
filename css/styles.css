@@ -173,6 +173,15 @@ html, body {
   border-radius: 4px;
 }
 
+.site-main {
+  margin: 5px 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .site-main {
+    margin: 5px 0px;
+  }
+}
 .navbar_fixed {
   position: fixed;
   width: 100%;
