@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Hack";
   font-display: swap;
@@ -182,6 +183,33 @@ html, body {
     margin: 5px 0px;
   }
 }
+#skillsTable {
+  background-color: #0d0a0bff;
+  font-family: "Hack";
+  font-size: medium;
+}
+#skillsTable i {
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  #skillsTable {
+    font-size: small;
+  }
+}
+.collapsible-section-header a {
+  text-decoration: none;
+  color: #e59500ff;
+}
+.collapsible-section-header a:after {
+  content: "▼";
+  padding-left: 0.5em;
+}
+.collapsible-section-header a.collapsed:after {
+  content: "►";
+  padding-left: 0.5em;
+}
+
 .navbar_fixed {
   position: fixed;
   width: 100%;

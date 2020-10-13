@@ -330,6 +330,37 @@ html, body {
 
 // end banner
 
+// skills table styling start
+#skillsTable {
+    background-color: $rich-black-fogra-39;
+    font-family: 'Hack';
+    font-size: medium;
+    i {
+        margin-right: 2rem;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    #skillsTable {
+        font-size: small;
+    }
+}
+.collapsible-section-header {
+    a {
+        text-decoration: none;
+        color: $gamboge;
+        &:after {
+            content: '\25bc';
+            padding-left: .5em;
+        }
+        &.collapsed:after {
+            content: '\25ba';
+            padding-left: .5em;
+        }
+    }
+}
+// skills table styling end
+
 //navbar sticky?
 .navbar_fixed {
     position: fixed;
