@@ -320,15 +320,40 @@ html, body {
 
 .site-main {
     margin: 5px 200px;
+    .main {
+        margin-bottom: 2rem;
+    }
+    .mainTitle {
+        font-family: $bannerFont;
+        color: #585858;
+    }
+    .greenLine {
+        width: 10rem;
+        background: $lime-green;
+        position: absolute;
+    }
 }
 @media screen and (max-width: 768px) {
     .site-main {
-        margin: 5px 0px;
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .site-main {
+        margin-left: 1.8rem;
     }
 }
 
 
 // end banner
+// contact form
+.contactForm {
+    color: grey;
+    label {
+        margin-top: 1rem;
+        margin-bottom: .2rem;
+    }
+}
 
 // skills table styling start
 #skillsTable {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tony Dattolo</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- bootstrap css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- responsive css file -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Header loader -->
+  <div id="contactHeader"></div>
+  <script>$("#contactHeader").load("/header.html #headerdata");</script>
+
+  <!-- Start Main Area -->
+  <main class="site-main">
+    <!-- Main Div -->
+    <div class="main">
+      <h2 class="mainTitle">Contact Me</h2>
+      <hr class="greenLine">
+    </div>
+
+    <form class="contactForm" action="mailto:anthonydattolo@gmail.com"
+            method="POST" enctype="text/plain">
+        <label for="contactName">NAME:</label>
+        <br>
+        <input type="text" name="contactName" id="">
+        <br>
+        <label for="contactEmail">EMAIL:</label>
+        <br>
+        <input type="email" name="contactEmail" id="">
+        <br>
+        <label for="contactPhone">PHONE (optional):</label>
+        <br>
+        <input type="tel" name="contactPhone" id="">
+        <br>
+        <label for="contactMessage">MESSAGE:</label>
+        <br>
+        <textarea name="contactMesage" id="" cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value="submit">
+
+
+
+    </form>
+
+  </main>
+
+
+  <!-- jquery js file -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+  <!-- bootstrap js file -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

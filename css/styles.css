@@ -177,12 +177,37 @@ html, body {
 .site-main {
   margin: 5px 200px;
 }
+.site-main .main {
+  margin-bottom: 2rem;
+}
+.site-main .mainTitle {
+  font-family: "AlphaCenturi";
+  color: #585858;
+}
+.site-main .greenLine {
+  width: 10rem;
+  background: #6dcd3cff;
+  position: absolute;
+}
 
 @media screen and (max-width: 768px) {
   .site-main {
-    margin: 5px 0px;
+    margin-left: 5rem;
   }
 }
+@media screen and (max-width: 480px) {
+  .site-main {
+    margin-left: 1.8rem;
+  }
+}
+.contactForm {
+  color: grey;
+}
+.contactForm label {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
 #skillsTable {
   background-color: #0d0a0bff;
   font-family: "Hack";
