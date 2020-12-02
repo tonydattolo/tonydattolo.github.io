@@ -141,9 +141,16 @@ $gradient-radial: radial-gradient(#0d0a0bff, #6dcd3cff, #ffb81fff, #e61d0fff, #f
 
 // start navigation
 
-.header_area .main-menu {
+.header_area {
+    position: fixed;
+    z-index: 1;
+}
 
+.header_area .main-menu {
+    // position: fixed;
+    background-color: $rich-black-fogra-39;
     .navbar {
+        width: 100vw;
         padding: .1rem .1rem;
 
         .navbar-brand{
@@ -195,6 +202,7 @@ $gradient-radial: radial-gradient(#0d0a0bff, #6dcd3cff, #ffb81fff, #e61d0fff, #f
 
     .social-links {
         padding: 27.2px;
+        margin-right: 1rem;
         display: block;
         place-items: center;
 
@@ -215,6 +223,8 @@ $gradient-radial: radial-gradient(#0d0a0bff, #6dcd3cff, #ffb81fff, #e61d0fff, #f
 
     .navbar-toggler {
         background: $gamboge;
+        position: relative;
+        right: 1rem;
         color: red;
         margin-right: 15px;
         // position: ;
@@ -319,6 +329,10 @@ html, body {
 }
 
 .site-main {
+    z-index: 0;
+    position: absolute;
+    top: 5.6rem;
+
     margin: 5px 200px;
     .main {
         margin-bottom: 2rem;

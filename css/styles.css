@@ -39,7 +39,16 @@
   font-display: swap;
   src: url(../fonts/mandalore-font/Mandalore-K77lD.otf) format("otf");
 }
+.header_area {
+  position: fixed;
+  z-index: 1;
+}
+
+.header_area .main-menu {
+  background-color: #0d0a0bff;
+}
 .header_area .main-menu .navbar {
+  width: 100vw;
   padding: 0.1rem 0.1rem;
 }
 .header_area .main-menu .navbar .navbar-brand {
@@ -80,6 +89,7 @@
 }
 .header_area .main-menu .social-links {
   padding: 27.2px;
+  margin-right: 1rem;
   display: block;
   place-items: center;
 }
@@ -97,6 +107,8 @@
 }
 .header_area .main-menu .navbar-toggler {
   background: #e59500ff;
+  position: relative;
+  right: 1rem;
   color: red;
   margin-right: 15px;
 }
@@ -175,6 +187,9 @@ html, body {
 }
 
 .site-main {
+  z-index: 0;
+  position: absolute;
+  top: 5.6rem;
   margin: 5px 200px;
 }
 .site-main .main {
