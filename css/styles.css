@@ -266,6 +266,8 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "LCDsolid";
+  color: #0d0a0bff;
 }
 .booktable > div {
   background-color: darkgray;

@@ -417,6 +417,8 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: $navFont;
+    color: $rich-black-fogra-39;
 
     &> div {
         background-color: darkgray;
